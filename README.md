@@ -36,13 +36,22 @@ npm run start
 npm run dev
 ```
 
+## APIs
+
+| API               | Query | Body     | Type                 | Description                             |
+| ----------------- | ----- | -------- | -------------------- | --------------------------------------- |
+| `GET/employee/`   |       |          |                      | Fetch all the employees details         |
+| `GET/employee/`   | empId |          | Numeric              | Fetch the details of the given employee |
+| `POST/employee`   |       | Required | JSON Object          | Create an employee                      |
+| `PUT/employee`    | empId | Required | Numeric, JSON Object | Update the given employee details       |
+| `DELETE/employee` | empId |          | Numeric              | Delete the given employee from records  |
+
 ## Author
 
-* Github: [@kanchankk11](https://github.com/kanchankk11)
+- Github: [@kanchankk11](https://github.com/kanchankk11)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+---
