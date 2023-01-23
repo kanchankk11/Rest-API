@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const validator = require('validator');
 
-
 const employeeSchema = new mongoose.Schema({
     empId : {
         type : Number,
